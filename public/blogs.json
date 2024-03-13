@@ -1,52 +1,55 @@
 [
     {
-        "id": "001",
-        "cover": "https://img.freepik.com/free-photo/top-view-ring-binder_23-2149568983.jpg?t=st=1710263798~exp=1710267398~hmac=3cabbea96a50b3b8be192897bb0e96fca66d8ad4585c5d90a31a1b86d77272d0&w=900",
-        "title": "title 1",
-        "author": "author 1",
-        "author_img": "https://example.com/author1",
-        "posted_date": "2024-03-01",
-        "reading_time": 10,
-        "hashtags": "#technology #ai"
-    },
-    {
-        "id": "002",
-        "cover": "https://img.freepik.com/premium-photo/male-hands-typing-laptop-using-smartphone-abstract-dark-black-office-desk_232693-407.jpg?w=900",
-        "title": "title 2",
-        "author": "author 2",
-        "author_img": "https://example.com/author2",
-        "posted_date": "2024-03-02",
-        "reading_time": 15,
-        "hashtags": "#science #space"
-    },
-    {
-        "id": "003",
-        "cover": "https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?t=st=1710263844~exp=1710267444~hmac=77628d819930a72c87e163a185c3533c22b5d2bd6fd078fe5f545dea707c23e1&w=900",
-        "title": "title 3",
-        "author": "author 3",
-        "author_img": "https://example.com/author3",
-        "posted_date": "2024-03-03",
-        "reading_time": 20,
-        "hashtags": "#health #wellness"
-    },
-    {
-        "id": "004",
-        "cover": "https://img.freepik.com/free-photo/top-view-workspace-with-copy-space-notebook-top-agenda_23-2148430806.jpg?t=st=1710263858~exp=1710267458~hmac=b289605c67b5dc37bc1eb6f57b4bd39787514fc4621691c3aeb2a9a8de1a2e0a&w=900",
-        "title": "title 4",
-        "author": "author 4",
-        "author_img": "https://example.com/author4",
-        "posted_date": "2024-03-04",
+        "id": 1,
+        "cover": "https://i.ibb.co/84Zfw2n/1.jpg",
+        "title": "Top 10 ES6 Features You Must Know",
+        "author_img": "https://i.ibb.co/VvLNdLL/boy1.png",
+        "author": "Hamza Sohail",
+        "posted_date": "September 15, 2023",
         "reading_time": 5,
-        "hashtags": "#travel #adventure"
+        "hashtags": [
+            "beginners",
+            "es6"
+        ]
     },
     {
-        "id": "005",
-        "cover": "https://img.freepik.com/premium-psd/colourful-crumpled-papers-with-pencil-sketches-doodles_23-2148347759.jpg?w=900",
-        "title": "title 5",
-        "author": "author 5",
-        "author_img": "https://example.com/author5",
-        "posted_date": "2024-03-05",
-        "reading_time": 30,
-        "hashtags": "#education #learning"
+        "id": 2,
+        "cover": "https://i.ibb.co/6N2dgnZ/2.png",
+        "title": "JavaScript Objects for Absolute Beginners: A Fun Introduction",
+        "author_img": "https://i.ibb.co/7rFSJx5/girl1.jpg",
+        "author": "Sajal Ali",
+        "posted_date": "August 28, 2023",
+        "reading_time": 4,
+        "hashtags": [
+            "javascript",
+            "coding",
+            "dev"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co/RzGzcPg/3.png",
+        "title": "Component lifecycle in React — Class component vs Functional component",
+        "author_img": "https://i.ibb.co/vwGwnhT/boy2.jpg",
+        "author": "Feroze Khan",
+        "posted_date": "July 10, 2023",
+        "reading_time": 10,
+        "hashtags": [
+            "mid_level",
+            "react"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co/vvTfkcv/4.jpg",
+        "title": "Free images and resources collection for website",
+        "author_img": "https://i.ibb.co/Sn7zB4q/girl2.jpg",
+        "author": "Anmol Baloch",
+        "posted_date": "June 5, 2023",
+        "reading_time": 9,
+        "hashtags": [
+            "development",
+            "resources"
+        ]
     }
 ]
