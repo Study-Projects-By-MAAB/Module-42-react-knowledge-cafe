@@ -12,7 +12,7 @@ const Bookmarks = ({ bookmarks, readingTime }) => {
                 <h2 className='text-2xl font-bold'>Bookmarked Blogs: {bookmarks.length} </h2>
                 <div className='flex flex-col gap-4'>
                     {
-                        bookmarks.map(bookmark => <Bookmark key={bookmark.id} bookmark={bookmark}></Bookmark>)
+                        bookmarks.map((bookmark, idx) => <Bookmark key={idx} bookmark={bookmark}></Bookmark>)
                     }
                 </div></div>
         </div>
@@ -20,8 +20,8 @@ const Bookmarks = ({ bookmarks, readingTime }) => {
 };
 
 Bookmarks.propTypes = {
-    bookmarks: PropTypes.object.isRequired,
-    readingTime: PropTypes.object.isRequired
+    bookmarks: PropTypes.array.isRequired,
+    readingTime: PropTypes.number.isRequired
 }
 
 export default Bookmarks;
